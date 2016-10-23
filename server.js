@@ -22,21 +22,16 @@ var port = 8080; // Use 8080 for local development because you might already hav
 app.listen(8080, function () {
   console.log(`IMAD course app listening on port ${port}!`);
 });
-//sql coonection
-var connection = new ActiveXObject("ADODB.Connection") ;
- 
-var connectionstring="Data Source=<server>;Initial Catalog=<catalog>;User ID=<user>;Password=<password>;Provider=SQLOLEDB";
- 
-connection.Open(connectionstring);
-var rs = new ActiveXObject("ADODB.Recordset");
- 
-rs.Open("SELECT * FROM table", connection);
-rs.MoveFirst
-while(!rs.eof)
-{
-   document.write(rs.fields(1));
-   rs.movenext;
+//sql connection
+function myFunction() {
+var firstname = document.getElementById("First_Name").value;
+var lastname=document.getElementById("Last_Name").value;
+var birthday=document.getElementById("Birthday_Day").value;
+var birthmonth=document.getElementById("Birthday_Month").value;
+var birthyear=document.getElementById("Birthday_Year").value;
+var email = document.getElementById("Email_Id").value;
+var moblie= document.getElementById("Mobile_Number").value;
+var branch=document.getElementById("branch").value;
+var sem=document.getElementById("semester").value;
+
 }
- 
-rs.close;
-connection.close;
