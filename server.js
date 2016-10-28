@@ -23,15 +23,22 @@ app.listen(8080, function () {
   console.log(`IMAD course app listening on port ${port}!`);
 });
 //sql connection
-function myFunction() {
-var firstname = document.getElementById("First_Name").value;
-var lastname=document.getElementById("Last_Name").value;
-var birthday=document.getElementById("Birthday_Day").value;
-var birthmonth=document.getElementById("Birthday_Month").value;
-var birthyear=document.getElementById("Birthday_Year").value;
-var email = document.getElementById("Email_Id").value;
-var moblie= document.getElementById("Mobile_Number").value;
-var branch=document.getElementById("branch").value;
-var sem=document.getElementById("semester").value;
+var mysql = require('mysql');
 
-}
+var connection = mysql.createConnection(
+    {
+      host     : 'mysqlhost',
+      port     : '3306',
+      user     : 'myuser',
+      password : 'mypassword',
+      database : 'myuser'
+    } ); connection.connect(); var query = connection.query('SELECT * FROM http://localhost:3000/index.html');
+
+query.on('error', function(err) {
+    throw err; });
+
+query.on('fields', function(fields) {
+    console.log(fields); })
+
+query.on('result', function(row) {
+    console.log(row); }); connection.end();
