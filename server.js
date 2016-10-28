@@ -27,11 +27,11 @@ var mysql = require('mysql');
 
 var connection = mysql.createConnection(
     {
-      host     : 'mysqlhost',
-      port     : '3306',
-      user     : 'myuser',
-      password : 'mypassword',
-      database : 'myuser'
+      host     : 'localhost:5432',
+      port     : '8080',
+      user     : 'arsh10209',
+      password : 'db-arsh10209-88997',
+      database : 'arsh10209'
     } ); connection.connect(); var query = connection.query('SELECT * FROM http://localhost:3000/index.html');
 
 query.on('error', function(err) {
