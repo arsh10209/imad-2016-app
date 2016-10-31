@@ -20,10 +20,10 @@ app.listen(8080, function () {
 //database part
 var sql=reqiure('PostgreSQL');
 var connection=sql.createConnection({
-    host:
-    user:
-    password:
-    database:
+    host:'localhost:5432',
+    user:'arsh10209',
+    password:'db-arsh10209-32406',
+    database:'arsh10209'
 });
 connection.connect();
 
