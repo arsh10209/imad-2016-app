@@ -1,22 +1,28 @@
-body {
-    font-family: sans-serif;
-    background-color: lightgrey;
-    margin-top: 75px;
+body{
+	background:url(op.jpg) no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
 }
+h3,p{
+	font-family: Calibri;
+	font-size: 22pt;
+	font-style: normal;
+	font-weight: bold; 
+	color:white;
+	text-align: center; 
+	text-decoration: underline }
+table{
+	font-family: Calibri; 
+	color:white; 
+	font-size: 11pt; 
+	font-style: normal;
+	text-align:center; 
+	background-color: white; 
 
-.center {
-    text-align: center;
-}
+	border-collapse: collapse; 
+	border: 2px yellow;}
+	
 
-.text-big {
-    font-size: 300%;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-.img-medium {
-    height: 200px;
-}
 
