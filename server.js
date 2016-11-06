@@ -18,16 +18,5 @@ app.listen(8080, function () {
   console.log(`IMAD course app listening on port ${port}!`);
 });
 //database part
-var Pool=reqiure('pg').Pool;
-var config={
-    host:'db.imad.hasura-app.io',
-    port:'5432',
-    user:'arsh10209',
-    password:'db-arsh10209-32406',
-    database:process.env.dbpassword
-};
-var pool= new Pool(config);
-
-
 
 
