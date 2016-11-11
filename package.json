@@ -9,7 +9,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser":"*",
+    "consolidate":"*",
+    "dust":"*",
+    "dustjs-helpers":"*",
+    "dustjs-linkedin":"*",
     "express": "^4.14.0",
-    "morgan": "^1.7.0"
+    "morgan": "^1.7.0",
+    "pg":""
   }
 }
