@@ -29,16 +29,5 @@ app.listen(8080, function () {
   console.log(`IMAD course app listening on port ${port}!`);
 });
 
-var pool = new pg.Pool(connect);
-app.post(function(req,res){
-pool.connect(connect,function(err, client, done) {
-  if(err) {
-    return console.error('error fetching client from pool', err);
-  }
-  client.query("INSERT INTO register(firstname,lastname,email,mobileno) VALUES($1,$2,$3,$4);",
-  [req.body.First_Name,req.body.Last_Name,req.body.Email_Id,req.body.Mobile_Number]);
-    done();
-    res.redirect('/');
-});
-});
+
 
