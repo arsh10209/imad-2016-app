@@ -30,6 +30,7 @@ app.listen(8080, function () {
 });
 
 var pool = new pg.Pool(connect);
+app.post(function(req,res){
 pool.connect(connect,function(err, client, done) {
   if(err) {
     return console.error('error fetching client from pool', err);
@@ -38,5 +39,6 @@ pool.connect(connect,function(err, client, done) {
   [req.body.First_Name,req.body.Last_Name,req.body.Email_Id,req.body.Mobile_Number]);
     done();
     res.redirect('/');
+});
 });
 
