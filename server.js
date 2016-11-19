@@ -2,7 +2,7 @@ var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
 var pool=require('pg').Pool;
-
+/*
 var config={
     user:'arsh10209',
     database:'arsh10209',
@@ -10,6 +10,7 @@ var config={
     port:'5432',
     password:process.env.DB_PASSWORD
 };
+*/
 
 var app = express();
 app.use(morgan('combined'));
@@ -28,7 +29,7 @@ app.get('/test-db',function(req,res){
         }
     });
 });
-
+/*
 app.get('/articles/article',function(req,res){
     pool.query("SELECT * FROM articles where title='"+req.params.articleName+"'",function(err,result){
         if(err){
@@ -43,6 +44,7 @@ app.get('/articles/article',function(req,res){
         }
     });
 });
+*/
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
