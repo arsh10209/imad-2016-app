@@ -18,6 +18,7 @@ app.use(morgan('combined'));
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
+/*
 var pool=new Pool(config);
 app.get('/test-db',function(req,res){
     pool.query('SELECT * FROM test',function(err,result){
@@ -29,7 +30,7 @@ app.get('/test-db',function(req,res){
         }
     });
 });
-/*
+
 app.get('/articles/article',function(req,res){
     pool.query("SELECT * FROM articles where title='"+req.params.articleName+"'",function(err,result){
         if(err){
