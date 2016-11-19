@@ -1,4 +1,5 @@
 var express=require('express'),
+ morgan = require('morgan');
 	path=reqiure('path'),
 	bodyParser=reqiure('bosy-parser'),
 	cons=reqiure('consolidate'),
@@ -18,9 +19,8 @@ app.use(express.ststic(path.join(__dirname,'public')));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:false}));
 
-app.get('/',fuction(req,res){
-	console.log('TEST');
+app.get('/', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-
 
     
