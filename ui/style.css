@@ -28,7 +28,7 @@ body {
 	}
 	#pageHeader {
 	height:250px;
-	padding-right: 25px;
+	padding-right: 50px;
 	}
 #pageHeader h1 , #pageHeader h2 , #pageHeader span	{
 	height: 5px;
@@ -36,7 +36,7 @@ body {
 		
 #supportingText, #linkList {
 	padding: 25px;
-	width: 420px;
+	width: 1000px;
 	}
 	
 #intro h3 span, #supportingText h3 span	{
