@@ -1,185 +1,216 @@
-body {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	color: #000000;
-	background-color: #020202;
-	background-image: url(../images/body-rept.jpg);
-	background-repeat: repeat-y;
-	background-position: center top;
-	margin: 35px 0px 0px 0px;
+a:link {
+	text-decoration: none;
 }
-h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea {
-	padding: 0px;
-	margin: 0px;
-}
-a {
-	color: #072FCF;
-	text-decoration: underline;
-}
+
+#participation a:link {
+	color: #FF0000;
+	}
+
+#requirements a:link {
+	color: #009999;
+	}
+
+a:visited {
+	text-decoration: none;
+	color: #666666;
+	}
 a:hover {
-	color: #072FCF;
-	text-decoration: none;
-}
-.main {
-	width: 918px;
-	margin: 0px auto;
-}
-.page {
-	width: 918px;
-	float: left;
-}
-.header {
-	background-image: url(../images/header.jpg);
-	background-repeat: no-repeat;
-	background-position: left top;
-	width: 918px;
-	height: 232px;
-	float: left;
-}
-.header h1 {
-	font-family: "Times New Roman", Times, serif;
-	font-size: 48px;
-	line-height: 48px;
-	color: #000000;
-	margin-top: 87px;
-	margin-left: 98px;
-}
-.topmenu {
-	background-image: url(../images/menu-bg.jpg);
-	background-repeat: no-repeat;
-	background-position: left top;
-	width: 918px;
-	height: 52px;
-	float: left;
-}
-.topmenu ul {
-	height: 47px;
-	list-style-type: none;
-}
-.topmenu ul li {
-	background-image: url(../images/devider.jpg);
-	background-repeat: no-repeat;
-	background-position: left top;
-	height: 47px;
-	float: left;
-	padding-left: 10px;
-}
-.topmenu ul li a {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	line-height: 47px;
-	color: #FFFFFF;
-	text-decoration: none;
-	padding-right: 45px;
-	padding-left: 45px;
-}
-.topmenu ul li a:hover {
-	color: #00ab86;
-}
-.content {
-	background-color: #FFFFFF;
-	width: 918px;
-	float: left;
-	padding-bottom: 13px;
-}
-.left-panel {
-	width: 623px;
-	float: left;
-	padding-top: 20px;
-	padding-left: 33px;
-}
-.left-panel-in {
-	width: 623px;
-	float: left;
-}
-.title {
-	font-size: 24px;
-	line-height: 100%;
-	text-transform: uppercase;
-	color: #000000;
-}
-.copyright {
-	border: 0px;
-	height: 1px;
-	width: 1px;
-}
-ul.list1 {
-	margin: 12px;
-	list-style-type: none;
-}
-ul.list1 li {
-	margin-bottom: 5px;
-}
-.subtitle {
-	font-size: 18px;
-	line-height: 100%;
-	color: #000000;
-}
-.right-panel {
-	background-color: #ebebeb;
-	width: 236px;
-	float: right;
-	padding-top: 20px;
-}
-.right-row1 {
-	clear: both;
-	padding-left: 14px;
-}
-.green {
-	font-size: 12px;
-	font-weight: bold;
-	color: #003300;
-	margin-bottom: 5px;
-}
-.right-row2 {
-	font-weight: bold;
-	line-height: 150%;
-	background-color: #d8d7d7;
-	clear: both;
-	padding-top: 29px;
-	padding-left: 19px;
-	padding-bottom: 57px;
-}
-.footer {
-	line-height: 62px;
-	background-image: url(../images/footer.jpg);
-	background-repeat: no-repeat;
-	background-position: left top;
-	width: 841px;
-	height: 79px;
-	float: left;
-	padding: 0px 36px 0px 41px;
-}
-.footer p {
-	font-size: 12px;
-	color: #FFFFFF;
-	float: left;
-}
-.footer ul {
-	float: right;
-	list-style-type: none;
-}
-.footer ul li {
-	display: inline;
-	padding-right: 11px;
-	padding-left: 11px;
-	border-left-width: 1px;
-	border-left-style: solid;
-	border-left-color: #FFFFFF;
-}
-.footer ul li a {
-	font-size: 12px;
-	color: #FFFFFF;
-	text-decoration: none;
-}
-.footer ul li a:hover {
 	text-decoration: underline;
 }
-.footer-link {
-	color:#ffffff; 
-	text-decoration:none; 
+a:active {
+	text-decoration: none;
 }
-.footer-link:hover {
-	color:#ffffff; 
-	text-decoration:none;
+
+body { 
+	background-color: #333333;
+	margin: 0px; 
+	margin-left:122px;
+	font-family: Tahoma, Arial, Verdana, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #999999;
+	font-weight: bold;
+	}
+	
+#container	{
+	position:absolute;
+	margin-top:0px;
+	width: 658px;
+	background-image: url("header.jpg");
+	background-repeat:	no-repeat;
+	background-position:top;
+	background-color: #020106;
+	}
+
+#intro	{
+	margin-top: 0px;
+	text-align: right;
+	color: #FFFFFF;
+	}
+	#pageHeader {
+	height:250px;
+	padding-right: 25px;
+	}
+#pageHeader h1 , #pageHeader h2 , #pageHeader span	{
+	height: 5px;
+	}
+		
+#supportingText, #linkList {
+	padding: 25px;
+	width: 420px;
+	}
+	
+#intro h3 span, #supportingText h3 span	{
+		}
+
+#intro h3	{
+			width: 313px;
+			height: 75px;
+			}
+
+p.p1	{
+		color: #CCCCCC;
+		}
+		
+p.p1, p.p2, p.p3	{
+		margin: 0px;
+		padding: 0px;
+		margin-top: 8px;
+		}
+		
+#explanation h3	{
+			width: 313px;
+			height: 10px;
+			margin: 0px;
+			padding: 25px 0 0 0;
+			}
+	
+#participation h3	{
+			width: 313px;
+			height: 10px;
+			}
+			
+#benefits h3	{
+			width: 313px;
+			height: 10px;
+			}
+			
+#linkList	{
+	position: absolute;
+	top: 300px;
+	left: 450px;
+	width: 100px;
+	height: auto;
+	z-index: 1;
+		}
+		
+#linkList2	{
+		margin-top: 0.px;
+	margin-left: 0px;
+	margin-top: 0px;
+				}
+
+#lselect	{
+		width: 100px;
+		height: auto;
+		color:#CCCCCC;
+			}
+
+#lselect h3 span, #larchives h3 span, #lresources h3 span	{
+		}
+		
+#lselect h3, #larchives h3, #lresources h3	{
+		width: 229px;
+		height: 50px;
+		}
+		
+#lselect h3	{
+			width: 229px;
+			height: 40px;
+			top: 0px;
+			margin: 0px;
+			padding: 0px;
+			}
+		
+#lselect ul, #larchives ul, #lresources ul	{
+	margin-top: 5px;
+		}
+
+#lselect li {
+	border-bottom: 1px dotted #FFFFFF;
+	width: 100px;
+	margin-bottom: 8px;
 }
+
+#lselect .c {
+	text-transform: capitalize;
+}
+
+#lselect a {
+	display: block;
+	font-weight: bold;
+	color:#FFFFFF;
+}
+
+#lselect a:hover {
+	display: block;
+	font-weight: bold;
+	color: #B99541;
+	background-color:#FFFFFF;
+}
+
+#lselect a.c {
+	color: #FFCC00;
+	display: inline;
+	font-weight: bold;
+}
+
+#lselect a.c:hover {
+	color: #FFCC00;
+	display: inline;
+	font-weight: bold;
+	background-color:#3399FF;
+}
+
+
+#larchives a, #lresources a {
+	font-weight: bold;
+	color:#FFFFFF;
+}
+
+#larchives li, #lresources li {
+	width: 100px;
+	list-style-position: outside;
+}
+
+#lresources li {
+}
+
+#larchives li {
+}
+
+#larchives	{
+		width: 100px;
+		height: 169px;
+					}
+
+#larchives h3	{
+			width: auto;
+			height: 40px;
+			top: 0px;
+			margin: 0px;
+			padding: 0px;
+			}
+			
+#footer		{
+			background-repeat:no-repeat;
+			width: 470px;
+			height: 15px;
+			text-align:center;
+			margin-top:30px;
+			padding: 10px;
+			}
+
+#footer	a	{
+			color: #FF9900;
+				}
