@@ -1,25 +1,4 @@
-a:link {
-	text-decoration: none;
-}
 
-#participation a:link {
-	color: #FF0000;
-	}
-
-#requirements a:link {
-	color: #009999;
-	}
-
-a:visited {
-	text-decoration: none;
-	color: #666666;
-	}
-a:hover {
-	text-decoration: underline;
-}
-a:active {
-	text-decoration: none;
-}
 
 body { 
 	background-color: #333333;
