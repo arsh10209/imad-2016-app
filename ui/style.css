@@ -35,7 +35,7 @@ body {
 #container	{
 	position:absolute;
 	margin-top:0px;
-	width: 1200px;
+	width: 1400px;
 	background-image: url("header.jpg");
 	background-repeat:	no-repeat;
 	background-position:top;
@@ -202,15 +202,3 @@ p.p1, p.p2, p.p3	{
 			padding: 0px;
 			}
 			
-#footer		{
-			background-repeat:no-repeat;
-			width: 470px;
-			height: 15px;
-			text-align:center;
-			margin-top:30px;
-			padding: 10px;
-			}
-
-#footer	a	{
-			color: #FF9900;
-				}
