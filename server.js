@@ -14,7 +14,7 @@ var path = require('path');
 
 var app = express();
 app.use(morgan('combined'));
-/*
+
 var article={
     title:'My Life My Choice',
     heading:'My Life My Choice',
@@ -62,15 +62,20 @@ function createTemplate(data){
 </body>
 </html>
 `;
+ return htmltemplate;
 }
-?*
+
 
 app.get('/', function (req, res) {
     
-   // res.send(createTemplate(article));
+   
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-
+app.get('/articleone', function (req, res) {
+    
+   res.send(createTemplate(article));
+  
+});
 
 /*var pool=new Pool(config);
 app.get('/test-db',function(req,res){
