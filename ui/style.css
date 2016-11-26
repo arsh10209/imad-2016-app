@@ -57,6 +57,13 @@ p.p1, p.p2, p.p3	{
 		margin-top: 8px;
 		}
 		
+		
+		#mybutton {
+    color:#000;
+    text-decoration:none;
+    size:20px;
+ }
+		
 #explanation h3	{
 			width: 313px;
 			height: 10px;
