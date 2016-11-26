@@ -9,8 +9,8 @@ var article={
     heading:'My Life My Choice',
     content:`
 		<div align="left" font-size="14">
-			<h3><span>HAN BHIGAA DETI HAI</span></h3>
-			<h1><span><pre>
+			<h3>HAN BHIGAA DETI HAI</h3>
+			<h1><pre>
 			   Han bhigaa deti hai
                 Aaj bhi
                 Mere laboon ko,
@@ -39,7 +39,7 @@ var article={
                 Han tadhpaa deti hai
                 Aaj bhi
                 Meri chaahat ko,
-                Teri ye naraz khamoshi..</pre></span></h1>
+                Teri ye naraz khamoshi..</pre></h1>
 		</div>
      </div>`
 };
