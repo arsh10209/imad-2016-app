@@ -10,7 +10,7 @@ var article={
     content:`
 		<div>
 			<h3><span>HAN BHIGAA DETI HAI</span></h3>
-			<p align="left"><span><pre>
+			<h1><span><pre>
 			    Han bhigaa deti hai
                 Aaj bhi
                 Mere laboon ko,
@@ -39,7 +39,7 @@ var article={
                 Han tadhpaa deti hai
                 Aaj bhi
                 Meri chaahat ko,
-                Teri ye naraz khamoshi.</pre></span></p>
+                Teri ye naraz khamoshi.</pre></span></h2>
 		</div>
      </div>`
 };
