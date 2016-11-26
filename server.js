@@ -41,7 +41,7 @@ var article={
                 Meri chaahat ko,
                 Teri ye naraz khamoshi..</pre></h4>
 		</div>
-     <div align="left" >
+        <div align="left" >
 			<h3>HAN BHIGAA DETI HAI</h3>
 			<h4><pre>
 			   Han bhigaa deti hai
