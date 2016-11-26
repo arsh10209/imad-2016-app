@@ -43,34 +43,35 @@ var article={
 		</div>
         <div align="left" >
 			<h3>Khayal mujhe bhi tera rehta hai</h3>
-			<h4><pre>
-             Han rehta hai,
-            Han rehta hai.
-            Mujhko bhi tera khayal rehta hai.
-            
-            Nahi dikhaata,
-            Han nahi dikhaata,
-            ki mujhko bhi kitna khayal tera rehta hai.
-            
-            Han ata hai,
-            Han roz ata hai.
-            Khulli or band ankho se,
-            Mujhko keval tera hi sapna ata hai.
-            
-            Han karta hu,
-            Han sacche dil se karta hu.
-            Pyaar mai keval tujhi se karta hu. 
-            
-            Nahi chaahta,
-            Han nahi chaahta.
-            Tere upar koi bandhan mai nahi chaahta,
-            Shayad isliye mai kuch nahi dikhlaata.
-            
-            Tu mane na mane,
-            Rehta hai,
-            Han rehta hai.
-            Khayal mujhe bhi tera rehta hai.
-</pre></h4>
+        		<h4><pre>
+                Han rehta hai,
+                Han rehta hai.
+                Mujhko bhi tera khayal rehta hai.
+                
+                Nahi dikhaata,
+                Han nahi dikhaata,
+                ki mujhko bhi kitna khayal tera rehta hai.
+                
+                Han ata hai,
+                Han roz ata hai.
+                Khulli or band ankho se,
+                Mujhko keval tera hi sapna ata hai.
+                
+                Han karta hu,
+                Han sacche dil se karta hu.
+                Pyaar mai keval tujhi se karta hu. 
+                
+                Nahi chaahta,
+                Han nahi chaahta.
+                Tere upar koi bandhan mai nahi chaahta,
+                Shayad isliye mai kuch nahi dikhlaata.
+                
+                Tu mane na mane,
+                Rehta hai,
+                Han rehta hai.
+                Khayal mujhe bhi tera rehta hai.
+                .
+            </pre></h4>
 		</div>`
 };
 function createTemplate(data){
