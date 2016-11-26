@@ -10,7 +10,7 @@ var article={
     content:`
 		<div id="benefits">
 			<h3><span>HAN BHIGAA DETI HAI</span></h3>
-			<p align="right"><span><pre>
+			<p align="left"><span><pre>
 			    Han bhigaa deti hai
                 Aaj bhi
                 Mere laboon ko,
