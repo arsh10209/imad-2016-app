@@ -9,7 +9,7 @@ var article={
     heading:'My Life My Choice',
     content:`
 		<div align="left" >
-			<h3>HAN BHIGAA DETI HAI</h3>
+			<h3>    HAN BHIGAA DETI HAI</h3>
 			<h4><pre>
 			    Han bhigaa deti hai
                 Aaj bhi
@@ -42,7 +42,7 @@ var article={
                 Teri ye naraz khamoshi..</pre></h4>
 		</div>
         <div align="left" >
-			<h3>Khayal mujhe bhi tera rehta hai</h3>
+			<h3>    Khayal mujhe bhi tera rehta hai</h3>
         		<h4><pre>
                 Han rehta hai,
                 Han rehta hai.
