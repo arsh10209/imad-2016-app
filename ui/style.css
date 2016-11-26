@@ -67,6 +67,8 @@ p.p1, p.p2, p.p3	{
     text-decoration: none;
     display: inline-block;
     font-size: 50px;
+    width: 20em; 
+    height: 20em;
  }
 		
 #explanation h3	{
