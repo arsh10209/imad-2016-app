@@ -14,6 +14,7 @@ var path = require('path');
 
 var app = express();
 app.use(morgan('combined'));
+/*
 var article={
     title:'My Life My Choice',
     heading:'My Life My Choice',
@@ -62,6 +63,7 @@ function createTemplate(data){
 </html>
 `;
 }
+?*
 
 app.get('/', function (req, res) {
     
