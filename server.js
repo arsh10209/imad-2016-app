@@ -41,7 +41,39 @@ var article={
                 Meri chaahat ko,
                 Teri ye naraz khamoshi..</pre></h4>
 		</div>
-     </div>`
+     <div align="left" >
+			<h3>HAN BHIGAA DETI HAI</h3>
+			<h4><pre>
+			   Han bhigaa deti hai
+                Aaj bhi
+                Mere laboon ko,
+                Teri saanson ki ye nami.
+                 
+                Han rula deti hai
+                Aaj bhi
+                Meri aankoon ko,
+                Teri ye kami.
+                 
+                Han badha deti hai
+                Aaj bhi
+                Meri dhadhkan ko,
+                Teri pyaari si ye hasi.
+                 
+                Han mita deti hai
+                Aaj bhi
+                Mere dukhoon ko,
+                Teri ye khushi.
+                 
+                Han bhula deti hai
+                Aaj bhi
+                Mere gusse ko,
+                Teri itraati ye aavaaz pagli.
+                 
+                Han tadhpaa deti hai
+                Aaj bhi
+                Meri chaahat ko,
+                Teri ye naraz khamoshi..</pre></h4>
+		</div>`
 };
 function createTemplate(data){
     var title=data.title;
