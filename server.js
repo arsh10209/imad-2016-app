@@ -39,7 +39,7 @@ var article={
                 Han tadhpaa deti hai
                 Aaj bhi
                 Meri chaahat ko,
-                Teri ye naraz khamoshi.</pre></span></h2>
+                Teri ye naraz khamoshi.</pre></span></h1>
 		</div>
      </div>`
 };
