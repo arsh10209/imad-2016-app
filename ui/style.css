@@ -58,10 +58,15 @@ p.p1, p.p2, p.p3	{
 		}
 		
 		
-		#mybutton {
-    color:#000;
-    text-decoration:none;
-    size:20px;
+#mybutton {
+     background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
  }
 		
 #explanation h3	{
