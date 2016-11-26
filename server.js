@@ -67,15 +67,12 @@ function createTemplate(data){
 
 
 app.get('/', function (req, res) {
-    
-   
-  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+    res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 app.get('/articleone', function (req, res) {
     
    res.send(createTemplate(article));
-  
-});
+  });
 
 /*var pool=new Pool(config);
 app.get('/test-db',function(req,res){
