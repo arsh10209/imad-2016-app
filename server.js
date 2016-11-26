@@ -8,7 +8,7 @@ var article={
     title:'My Life My Choice',
     heading:'My Life My Choice',
     content:`
-		<div id="benefits">
+		<div>
 			<h3><span>HAN BHIGAA DETI HAI</span></h3>
 			<p align="left"><span><pre>
 			    Han bhigaa deti hai
