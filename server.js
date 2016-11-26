@@ -42,7 +42,7 @@ var article={
                 Teri ye naraz khamoshi..</pre></h4>
 		</div>
         <div align="left" >
-			<h3>    Khayal mujhe bhi tera rehta hai</h3>
+			<h3 align="center">    Khayal mujhe bhi tera rehta hai</h3>
         		<h4><pre>
                 Han rehta hai,
                 Han rehta hai.
