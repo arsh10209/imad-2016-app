@@ -8,8 +8,37 @@ var article={
     title:'My Life My Choice',
     heading:'My Life My Choice',
     content:`
-		<div align="left" font-size="14">
-			<h3>HAN BHIGAA DETI HAI</h3>
+		<div align="left" >
+			<h3>HAN BHIGAA DETI HAI
+			 Han bhigaa deti hai
+                Aaj bhi
+                Mere laboon ko,
+                Teri saanson ki ye nami.
+                 
+                Han rula deti hai
+                Aaj bhi
+                Meri aankoon ko,
+                Teri ye kami.
+                 
+                Han badha deti hai
+                Aaj bhi
+                Meri dhadhkan ko,
+                Teri pyaari si ye hasi.
+                 
+                Han mita deti hai
+                Aaj bhi
+                Mere dukhoon ko,
+                Teri ye khushi.
+                 
+                Han bhula deti hai
+                Aaj bhi
+                Mere gusse ko,
+                Teri itraati ye aavaaz pagli.
+                 
+                Han tadhpaa deti hai
+                Aaj bhi
+                Meri chaahat ko,
+                Teri ye naraz khamoshi..</h3>
 			<h4><pre>
 			   Han bhigaa deti hai
                 Aaj bhi
