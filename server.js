@@ -11,7 +11,7 @@ var article={
 		<div align="left" >
 			<h3>HAN BHIGAA DETI HAI</h3>
 			<h4><pre>
-			   Han bhigaa deti hai
+			    Han bhigaa deti hai
                 Aaj bhi
                 Mere laboon ko,
                 Teri saanson ki ye nami.
