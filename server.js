@@ -42,37 +42,35 @@ var article={
                 Teri ye naraz khamoshi..</pre></h4>
 		</div>
         <div align="left" >
-			<h3>HAN BHIGAA DETI HAI</h3>
+			<h3>Khayal mujhe bhi tera rehta hai</h3>
 			<h4><pre>
-			   Han bhigaa deti hai
-                Aaj bhi
-                Mere laboon ko,
-                Teri saanson ki ye nami.
-                 
-                Han rula deti hai
-                Aaj bhi
-                Meri aankoon ko,
-                Teri ye kami.
-                 
-                Han badha deti hai
-                Aaj bhi
-                Meri dhadhkan ko,
-                Teri pyaari si ye hasi.
-                 
-                Han mita deti hai
-                Aaj bhi
-                Mere dukhoon ko,
-                Teri ye khushi.
-                 
-                Han bhula deti hai
-                Aaj bhi
-                Mere gusse ko,
-                Teri itraati ye aavaaz pagli.
-                 
-                Han tadhpaa deti hai
-                Aaj bhi
-                Meri chaahat ko,
-                Teri ye naraz khamoshi..</pre></h4>
+             Han rehta hai,
+            Han rehta hai.
+            Mujhko bhi tera khayal rehta hai.
+            
+            Nahi dikhaata,
+            Han nahi dikhaata,
+            ki mujhko bhi kitna khayal tera rehta hai.
+            
+            Han ata hai,
+            Han roz ata hai.
+            Khulli or band ankho se,
+            Mujhko keval tera hi sapna ata hai.
+            
+            Han karta hu,
+            Han sacche dil se karta hu.
+            Pyaar mai keval tujhi se karta hu. 
+            
+            Nahi chaahta,
+            Han nahi chaahta.
+            Tere upar koi bandhan mai nahi chaahta,
+            Shayad isliye mai kuch nahi dikhlaata.
+            
+            Tu mane na mane,
+            Rehta hai,
+            Han rehta hai.
+            Khayal mujhe bhi tera rehta hai.
+</pre></h4>
 		</div>`
 };
 function createTemplate(data){
