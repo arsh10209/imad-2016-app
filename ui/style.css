@@ -39,23 +39,14 @@ body {
 	width: 1000px;
 	}
 	
-#intro h3 span, #supportingText h3 span	{
-		}
+
 
 #intro h3	{
 			width: 313px;
 			height: 75px;
 			}
 
-p.p1	{
-		color: #CCCCCC;
-		}
-		
-p.p1, p.p2, p.p3	{
-		margin-right:50px;
-		padding: 0px;
-		margin-top: 8px;
-		}
+
 		
 		
 
